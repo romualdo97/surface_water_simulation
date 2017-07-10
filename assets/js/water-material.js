@@ -341,9 +341,9 @@ THREE.Water.prototype.updateTextureMatrix = function () {
 
   // Update the texture matrix
   this.textureMatrix.set(0.5, 0.0, 0.0, 0.5,
-              0.0, 0.5, 0.0, 0.5,
-              0.0, 0.0, 0.5, 0.5,
-              0.0, 0.0, 0.0, 1.0);
+								  0.0, 0.5, 0.0, 0.5,
+								  0.0, 0.0, 0.5, 0.5,
+								  0.0, 0.0, 0.0, 1.0);
   this.textureMatrix.multiply(this.mirrorCamera.projectionMatrix);
   this.textureMatrix.multiply(this.mirrorCamera.matrixWorldInverse);
 
