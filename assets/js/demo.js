@@ -67,12 +67,12 @@ var DEMO = {
 	
 	loadSkyBox: function loadSkyBox() {
 		var aCubeMap = THREE.ImageUtils.loadTextureCube([
-		  '../assets/img/px2.jpg',
-		  '../assets/img/nx2.jpg',
-		  '../assets/img/py2.jpg',
-		  '../assets/img/ny2.jpg',
-		  '../assets/img/pz2.jpg',
-		  '../assets/img/nz2.jpg'
+		  'assets/img/px2.jpg',
+		  'assets/img/nx2.jpg',
+		  'assets/img/py2.jpg',
+		  'assets/img/ny2.jpg',
+		  'assets/img/pz2.jpg',
+		  'assets/img/nz2.jpg'
 		]);
 		aCubeMap.format = THREE.RGBFormat;
 
