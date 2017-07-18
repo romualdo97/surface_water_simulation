@@ -38,7 +38,7 @@ var DEMO = {
 		this.ms_Scene.add(directionalLight);
 		
 		// Load textures		
-		var waterNormals = new THREE.ImageUtils.loadTexture('https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/waternormals.jpg');
+		var waterNormals = new THREE.ImageUtils.loadTexture('assets/img/waternormals.jpg');
 		waterNormals.wrapS = waterNormals.wrapT = THREE.RepeatWrapping; 
 		
 		// Create the water effect
@@ -67,12 +67,12 @@ var DEMO = {
 	
 	loadSkyBox: function loadSkyBox() {
 		var aCubeMap = THREE.ImageUtils.loadTextureCube([
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/px2.jpg',
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/nx2.jpg',
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/py2.jpg',
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/ny2.jpg',
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/pz2.jpg',
-		  'https://raw.githubusercontent.com/romualdo97/surface_water_simulation/master/assets/img/nz2.jpg'
+		  'assets/img/px2.jpg',
+		  'assets/img/nx2.jpg',
+		  'assets/img/py2.jpg',
+		  'assets/img/ny2.jpg',
+		  'assets/img/pz2.jpg',
+		  'assets/img/nz2.jpg'
 		]);
 		aCubeMap.format = THREE.RGBFormat;
 
